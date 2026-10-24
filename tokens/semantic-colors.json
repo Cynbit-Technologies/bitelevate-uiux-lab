@@ -1,0 +1,36 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "semantic": {
+    "surface": {
+      "default": { "$value": "#ffffff", "$type": "color", "description": "Default card and background surface" },
+      "subtle": { "$value": "{color.zinc.50}", "$type": "color", "description": "Subtle container fill" },
+      "muted": { "$value": "{color.zinc.100}", "$type": "color", "description": "Muted element background" }
+    },
+    "text": {
+      "primary": { "$value": "{color.zinc.950}", "$type": "color", "description": "Primary high-contrast headings and body text", "wcagContrast": "17.4:1 on white (AAA)" },
+      "secondary": { "$value": "{color.zinc.600}", "$type": "color", "description": "Secondary descriptive text", "wcagContrast": "5.7:1 on white (AA)" },
+      "muted": { "$value": "{color.zinc.400}", "$type": "color", "description": "Inactive placeholder text", "wcagContrast": "2.8:1 on white" }
+    },
+    "border": {
+      "default": { "$value": "{color.zinc.200}", "$type": "color", "description": "Default subtle divider and border" },
+      "focus": { "$value": "{color.zinc.950}", "$type": "color", "description": "High-contrast keyboard focus indicator" }
+    },
+    "feedback": {
+      "success": {
+        "text": { "$value": "{color.emerald.700}", "$type": "color", "wcagContrast": "4.8:1 on green-50" },
+        "bg": { "$value": "{color.emerald.50}", "$type": "color" },
+        "border": { "$value": "{color.emerald.600}", "$type": "color" }
+      },
+      "error": {
+        "text": { "$value": "{color.red.700}", "$type": "color", "wcagContrast": "5.1:1 on red-50" },
+        "bg": { "$value": "{color.red.50}", "$type": "color" },
+        "border": { "$value": "{color.red.600}", "$type": "color" }
+      },
+      "warning": {
+        "text": { "$value": "{color.amber.700}", "$type": "color", "wcagContrast": "4.6:1 on amber-50" },
+        "bg": { "$value": "{color.amber.50}", "$type": "color" },
+        "border": { "$value": "{color.amber.600}", "$type": "color" }
+      }
+    }
+  }
+}

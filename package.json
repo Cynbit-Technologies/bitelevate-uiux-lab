@@ -1,0 +1,21 @@
+{
+  "name": "bitelevate-uiux-lab",
+  "version": "1.0.0",
+  "description": "ApexDesign System & Product Experience Lab — Production Design Tokens & Accessibility Test Engine",
+  "main": "dist/tokens.json",
+  "scripts": {
+    "validate": "node scripts/validate-tokens.js",
+    "contrast": "node scripts/check-contrast.js",
+    "build": "node scripts/build-tokens.js",
+    "test": "npm run validate && npm run contrast"
+  },
+  "keywords": [
+    "design-system",
+    "design-tokens",
+    "wcag",
+    "figma",
+    "uiux"
+  ],
+  "author": "Cynbit Technologies",
+  "license": "MIT"
+}

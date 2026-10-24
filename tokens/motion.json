@@ -1,0 +1,15 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "motion": {
+    "duration": {
+      "fast": { "$value": "150ms", "$type": "duration", "description": "Used for button presses, toggle switches, hover borders" },
+      "normal": { "$value": "250ms", "$type": "duration", "description": "Used for modal dialogs, dropdowns, drawer expansions" },
+      "slow": { "$value": "400ms", "$type": "duration", "description": "Used for full-page transitions and skeleton shimmer pulses" }
+    },
+    "easing": {
+      "standard": { "$value": "cubic-bezier(0.2, 0.0, 0.0, 1.0)", "$type": "cubicBezier", "description": "Natural standard deceleration" },
+      "ease-out": { "$value": "cubic-bezier(0.16, 1.0, 0.3, 1.0)", "$type": "cubicBezier", "description": "Swift entrance curve" },
+      "ease-in": { "$value": "cubic-bezier(0.7, 0.0, 0.84, 0.0)", "$type": "cubicBezier", "description": "Accelerating exit curve" }
+    }
+  }
+}

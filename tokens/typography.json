@@ -1,0 +1,43 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "fontFamily": {
+    "sans": { "$value": "'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif", "$type": "fontFamily" },
+    "mono": { "$value": "'JetBrains Mono', monospace", "$type": "fontFamily" }
+  },
+  "typography": {
+    "display-lg": {
+      "fontSize": { "$value": "48px", "$type": "dimension" },
+      "lineHeight": { "$value": "1.1", "$type": "number" },
+      "fontWeight": { "$value": "800", "$type": "fontWeight" },
+      "letterSpacing": { "$value": "-0.03em", "$type": "dimension" }
+    },
+    "heading-xl": {
+      "fontSize": { "$value": "32px", "$type": "dimension" },
+      "lineHeight": { "$value": "1.2", "$type": "number" },
+      "fontWeight": { "$value": "700", "$type": "fontWeight" },
+      "letterSpacing": { "$value": "-0.02em", "$type": "dimension" }
+    },
+    "heading-md": {
+      "fontSize": { "$value": "20px", "$type": "dimension" },
+      "lineHeight": { "$value": "1.3", "$type": "number" },
+      "fontWeight": { "$value": "600", "$type": "fontWeight" },
+      "letterSpacing": { "$value": "-0.01em", "$type": "dimension" }
+    },
+    "body-base": {
+      "fontSize": { "$value": "14px", "$type": "dimension" },
+      "lineHeight": { "$value": "1.5", "$type": "number" },
+      "fontWeight": { "$value": "400", "$type": "fontWeight" }
+    },
+    "body-sm": {
+      "fontSize": { "$value": "12px", "$type": "dimension" },
+      "lineHeight": { "$value": "1.4", "$type": "number" },
+      "fontWeight": { "$value": "400", "$type": "fontWeight" }
+    },
+    "caption": {
+      "fontSize": { "$value": "11px", "$type": "dimension" },
+      "lineHeight": { "$value": "1.3", "$type": "number" },
+      "fontWeight": { "$value": "600", "$type": "fontWeight" },
+      "letterSpacing": { "$value": "0.04em", "$type": "dimension" }
+    }
+  }
+}

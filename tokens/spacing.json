@@ -1,0 +1,13 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "space": {
+    "1": { "$value": "4px", "$type": "dimension", "description": "Micro spacing for badges and tight icons" },
+    "2": { "$value": "8px", "$type": "dimension", "description": "Baseline spatial grid step" },
+    "3": { "$value": "12px", "$type": "dimension", "description": "Standard input and chip padding" },
+    "4": { "$value": "16px", "$type": "dimension", "description": "Standard card padding and content gutters" },
+    "6": { "$value": "24px", "$type": "dimension", "description": "Medium section spacing and container margins" },
+    "8": { "$value": "32px", "$type": "dimension", "description": "Large section separator" },
+    "12": { "$value": "48px", "$type": "dimension", "description": "Major section vertical rhythm" },
+    "16": { "$value": "64px", "$type": "dimension", "description": "Page hero spacing" }
+  }
+}
